@@ -87,9 +87,9 @@ def process_tokens():
 
                         if promo_redemption_id:
                             print(f"{Fore.LIGHTWHITE_EX}{time_right_now()} | {Fore.RESET}{Fore.LIGHTCYAN_EX}PROMO{Fore.RESET}  | Retrieved promo code: {promo_redemption_id}")
-                            write_to_file(PROMOS_OUTPUT_FILE, f"https://promo.discord.gg/{promo_redemption_id}")
+                            write_to_file(PROMOS_OUTPUT_FILE, f"https://promos.discord.gg/{promo_redemption_id}")
                             write_to_file(TOKENS_OUTPUT_FILE, token_line)
-                            write_to_file(COMBINED_OUTPUT_FILE, f"{token_line}|https://promo.discord.gg/{promo_redemption_id}")
+                            write_to_file(COMBINED_OUTPUT_FILE, f"{token_line}|https://promos.discord.gg/{promo_redemption_id}")
                             
                             promos.remove(full_promo)
                             tokens.remove(token_line)
