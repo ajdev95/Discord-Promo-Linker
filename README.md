@@ -16,4 +16,11 @@
 ```
 </details>
 
-# Be sure to add proxies.. `user:pass@host:port` format
+# ⭐ Update 1.5.0 ⭐
+
+- Fixed stopping to request and have to restart (hopefully works fine now).
+- Added an option to turn **on**/**off** proxy support.
+- Added an option to turn **on**/**off** dated output (not recommended if your going to use alot of tokens & promos, files are found in Output/tokens.txt etc).
+- Added a question to clear the output tokens.txt etc files.
+- Changed the print styles.
+- Added a title to see how many you retrieved etc.
